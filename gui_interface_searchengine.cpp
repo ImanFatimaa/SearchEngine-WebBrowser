@@ -150,7 +150,7 @@ namespace gui {
 
         // create a new search engine object only if the query is not a path
         if (!engine->isQuery(q)) {
-                engine = new searchengine("C:/Users/M.Ammar Alvi/source/repos/gui/data", q);
+                engine = new searchengine("path", q);
 
                 // execute search engine's search function
                 engine->search();
@@ -176,7 +176,7 @@ namespace gui {
 
         }
         else {
-            engine = new searchengine("C:/Users/M.Ammar Alvi/source/repos/gui/data", q);
+            engine = new searchengine("path", q);
 
             // execute search engine's search function
             engine->search();
@@ -230,6 +230,3 @@ namespace gui {
     };
 }
 
-
-/* this->BackgroundImage = Image::FromFile("WhatsApp Image 2024-06-02 at 5.04.51 PM.jpeg");
-   this->BackgroundImageLayout = ImageLayout::Stretch;*/
