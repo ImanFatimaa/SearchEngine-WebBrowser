@@ -310,4 +310,3 @@ private:
     
 };
 
-/*C:\Users\M.Ammar Alvi\source\repos\gui\data*/
